@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1a | sed -e 's/^\.\{1,2\}$/&\//' -e 's/\(.*\)\/$/\1\//' | LC_COLLATE=C sort -df | tr '\n' ',' | sed 's/,$/\n/'
