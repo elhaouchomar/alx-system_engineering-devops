@@ -1,1 +1,1 @@
-sell permissions
+sell permission
